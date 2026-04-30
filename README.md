@@ -8,6 +8,7 @@ This makes the output more reliable and avoids misleading results.
 
 How it works:-
 
+Run train.py model which will create a cattle_model.pkl. After the model has completed training run app.py model which provides a local host code to run on browser with the cattle identifier. Install any neccessary library required. 
 The model processes the input data, extracts useful features, and runs it through a trained SVM classifier. Based on this, it ranks possible breeds and selects the top three.
 
 Each of these is checked against the confidence threshold:
