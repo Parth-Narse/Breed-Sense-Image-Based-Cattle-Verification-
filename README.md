@@ -11,6 +11,7 @@ The model processes the input data, extracts useful features, and runs it throug
 
 Each of these is checked against the confidence threshold:
 If confidence ≥ 75% → shown as a valid prediction
+
 If confidence < 75% → ignored
 If all predictions are below the threshold, the system simply returns that the breed is not identified.
 
